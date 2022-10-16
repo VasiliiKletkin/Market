@@ -19,7 +19,6 @@ The store has the following features:
 * Django
 * Pytest
 * Git
-* JWT
 
 ---
 
