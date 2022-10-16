@@ -10,7 +10,6 @@ The store has the following features:
 - Adding images to the product;
 - Possibility of inclusion and removal from the basket;
 - Place an order through the basket, thereby adding it to the database;
-- Authorization of users;
 
 ---
 
@@ -19,6 +18,7 @@ The store has the following features:
 * Django
 * Pytest
 * Git
+* html
 
 ---
 
