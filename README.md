@@ -19,6 +19,8 @@ The store has the following features:
 * Pytest
 * Git
 * html
+* Bootstrap
+
 
 ---
 
