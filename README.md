@@ -1,23 +1,48 @@
 # Market
-Магазин товаров. Возможность просмотра товара, списка товаров, просмотр товаров по котегориям, добавление в корзину и оформление заказа. В дальнейших обновлениях планируеться добавить систему оплаты Stripe.
 
-## Описание
-Проект был создан в учебных целях. Был использован стек:
-Python, Django, Git, Bootstrap, SQlite,
+### Description
 
-## Установка 
-Клонируем репозиторий на локальную машину:
+The store is made on django version 2.1, python 3.9. With bootstrap, CSS, HTML5, JavaScript for the front and PostgreSQL.
+The store has the following features:
+
+- List of all products;
+- List of categories;
+- Adding images to the product;
+- Possibility of inclusion and removal from the basket;
+- Place an order through the basket, thereby adding it to the database;
+
+---
+
+### Technologies:
+* Python
+* Django
+* Pytest
+* Git
+* html
+* Bootstrap
+
+
+---
+
+### Installation
+Clone the repository on the local machine:
 
 ```$ git clone https://github.com/vkletkin/Market```
 
- Создаем виртуальное окружение:
+ Create a virtual environment:
  
  ```$ python -m venv venv```
  
- Устанавливаем зависимости:
+ Install dependencies:
 
 ```$ pip install -r requirements.txt```
 
-Запускаем django сервер:
+Creating and applying migrations:
+
+```$ python manage.py makemigrations``` and  ```$ python manage.py migrate```
+
+Starting the django server:
 
 ```$ python manage.py runserver```
+
+---
